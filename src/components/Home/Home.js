@@ -23,18 +23,18 @@ class Home extends Component {
                   <img className={styles.image} src={instagram} />
                   <div className={styles.socials}>@mit_bwa</div>
                 </a>
-                <a className={styles.socialGrid} href="https://www.linkedin.com/groups/13907779//">
+                {/* <a className={styles.socialGrid} href="https://www.linkedin.com/groups/13907779//">
                   <img className={styles.image} src={linkedin} />
                   <div className={styles.socials}>linkedin.com/groups/13907779/</div>
-                </a>
+                </a> */}
             </div>
           </div>
 
           <div className={styles.gridItem}>
             <div className={styles.header}>CONTACT INFO</div>
             <div className={styles.socials}>black-women-request@mit.edu</div>
-            <div className={styles.socials}>ketandu@mit.edu</div>
-            <div className={styles.socials}>diani@mit.edu</div>
+            {/* <div className={styles.socials}>ketandu@mit.edu</div>
+            <div className={styles.socials}>diani@mit.edu</div> */}
           </div>
         </div>
 
