@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './About.module.css';
 import BWAConstitution from '../Documents/BWAConstitution.pdf';
+import retreat_photo from '../Images/bwa_retreat.jpeg'
 
 const mission = ["To provide a forum to address the needs and concerns of Black women undergraduate students at MIT",
                       "To promote the awareness of Black women's issues in the MIT community through activities designed to increase the visibility of Black women on campus",
@@ -12,17 +13,25 @@ const missionItems = mission.map((statement) => <li>{statement}</li>);
 class About extends Component {
   render() {
     return (
+      <div>
       <div className={styles.grid}>
         <div className={styles.title}>BWA</div>
         <div className={styles.subtitle}>EST. 1997</div>
         <div className={styles.missionBox}>
           <div className={styles.ourMission}>OUR MISSION</div>
           <ul className={styles.first}>{missionItems}</ul>
-          </div>
+        </div>
+      </div>
+
+      <div className={styles.groupPhotoContainer}>
+        <img className={styles.groupPhoto} src={retreat_photo} />
+      </div>
+
+      <div className={styles.grid}>
         <div className={styles.constitutionBox} onClick={() => window.open(BWAConstitution)}>
           <div className={styles.text}>constitution</div>
-        </div>
-        
+        </div> 
+      </div>
       </div>
     )
   }

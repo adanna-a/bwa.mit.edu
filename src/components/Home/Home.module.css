@@ -51,6 +51,17 @@
     padding-right: 10px; 
     padding-bottom: 10px;
 }
+
+.groupPhotoContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+}
+.groupPhoto {
+    height: 500px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
 .socials {
     font-size: 25px;
     color: white;

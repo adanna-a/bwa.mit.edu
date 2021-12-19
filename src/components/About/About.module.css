@@ -73,6 +73,30 @@
     }
 }
 
+
+.groupPhotoContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+}
+.groupPhoto {
+    height: 500px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 765px) {
+    .groupPhotoContainer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+    }
+    .groupPhoto {
+        height: 400px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 515px) {
     .missionBox {
         background-color: #694956;
@@ -81,5 +105,10 @@
         height: 1075px;
         margin-bottom: 10px;
         justify-content: center;
+    }
+    .groupPhoto {
+        height: 300px;
+        justify-content: center;
+        padding-bottom: 20px;
     }
 }

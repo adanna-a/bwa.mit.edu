@@ -3,6 +3,7 @@ import { Col, Row, Container } from 'react-bootstrap';
 import { Image } from 'react-native';
 import styles from './Home.module.css';
 import instagram from '../Images/instagram_icon.png';
+import retreat_photo from '../Images/bwa_retreat.jpeg'
 import linkedin from '../Images/linkedin_icon.png';
 import mail from '../Images/mail_icon.png';
 import mailinglist from '../Images/mailinglist_icon.png';
@@ -37,7 +38,10 @@ class Home extends Component {
             <div className={styles.socials}>diani@mit.edu</div> */}
           </div>
         </div>
-
+        
+        <div className={styles.groupPhotoContainer}>
+          <img className={styles.groupPhoto} src={retreat_photo} />
+        </div>
         <div className={styles.donateBox}>
           <a href="https://giving.mit.edu/explore/campus-student-life/affinity-groups">
             <div className={styles.donate}>donate</div>
