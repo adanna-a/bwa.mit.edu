@@ -39,9 +39,7 @@ class Home extends Component {
           </div>
         </div>
         
-        <div className={styles.groupPhotoContainer}>
-          <img className={styles.groupPhoto} src={retreat_photo} />
-        </div>
+        
         <div className={styles.donateBox}>
           <a href="https://giving.mit.edu/explore/campus-student-life/affinity-groups">
             <div className={styles.donate}>donate</div>
