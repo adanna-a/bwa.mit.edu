@@ -56,3 +56,11 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    .imageGrid {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
