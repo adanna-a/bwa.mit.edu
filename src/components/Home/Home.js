@@ -20,14 +20,16 @@ class Home extends Component {
           <div className={styles.gridItem}>
             <div className={styles.nested}>
               <div className={styles.header}>SOCIALS</div>
-                <a className={styles.socialGrid} href="https://www.instagram.com/mit_bwa/?hl=enm">
+              <div className={styles.gridContainer}>
+                <a className={styles.socialGrid} style={{paddingRight: "10px"}} href="https://www.instagram.com/mit_bwa/?hl=enm">
                   <img className={styles.image} src={instagram} />
                   <div className={styles.socials}>@mit_bwa</div>
                 </a>
-                {/* <a className={styles.socialGrid} href="https://www.linkedin.com/groups/13907779//">
+                <a className={styles.socialGrid} href="https://www.linkedin.com/groups/13907779//">
                   <img className={styles.image} src={linkedin} />
-                  <div className={styles.socials}>linkedin.com/groups/13907779/</div>
-                </a> */}
+                  <div className={styles.socials}>linkedin</div>
+                </a>
+              </div>
             </div>
           </div>
 

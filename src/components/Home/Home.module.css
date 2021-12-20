@@ -21,13 +21,14 @@
     justify-content: center;
 
 }
+
 .gridItem {
     background-color: #EDA8C5;
     border-radius: 15px;
     padding: 20px;
     margin: 20px;
     width: 450px;
-    height: 150px;
+    height: 160px;
 }
 .nested {
     display: grid;
@@ -47,24 +48,16 @@
 
 }
 .image {
-    height: 45px;
+    height: 42px;
     padding-right: 10px; 
     padding-bottom: 10px;
 }
 
-.groupPhotoContainer {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto;
-}
-.groupPhoto {
-    height: 500px;
-    justify-content: center;
-    padding-bottom: 20px;
-}
+
 .socials {
     font-size: 25px;
     color: white;
+    text-align: center;
 }
 a {
     color:white;
@@ -74,7 +67,6 @@ a {
     .gridContainer{
         display: grid;
         grid-template-columns: auto;
-        background-color: black;
         padding: 10px;
         justify-content:center;
     }
@@ -91,7 +83,7 @@ a {
 @media only screen and (max-width: 420px) {
     .clubName {
         color: white;
-        font-size: 70px;
+        font-size: 20px;
         font-weight: bold;
         text-align: center;    
     } 

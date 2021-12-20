@@ -24,8 +24,8 @@
     background-color: #694956;
     border-radius: 15px;
     width: 1050px;
-    height: 375px;
-    margin-bottom: 10px;
+    height: 320px;
+    margin-bottom: 15px;
     justify-content: center;
 }
 .ourMission {
@@ -48,6 +48,16 @@
   position:relative; 
     top:.1em;
 }
+
+.paragraph {
+    text-align: left;
+    color: #EDA8C5;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .constitutionBox {
     height: 55px;
     width: 250px;
@@ -67,7 +77,7 @@
         background-color: #694956;
         border-radius: 15px;
         width: 500px;
-        height: 700px;
+        height: 600px;
         margin-bottom: 10px;
         justify-content: center;
     }
@@ -97,18 +107,32 @@
     }
 }
 
+
 @media only screen and (max-width: 515px) {
     .missionBox {
         background-color: #694956;
         border-radius: 15px;
         width: 300px;
-        height: 1075px;
+        height: 390px;
         margin-bottom: 10px;
         justify-content: center;
     }
+    .groupPhotoContainer {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+    }
     .groupPhoto {
-        height: 300px;
+        height: 215px;
         justify-content: center;
         padding-bottom: 20px;
+    }
+    .paragraph {
+        text-align: left;
+        color: #EDA8C5;
+        font-weight: bold;
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
