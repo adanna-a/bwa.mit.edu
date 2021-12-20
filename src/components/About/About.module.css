@@ -136,7 +136,7 @@
         padding-right: 15px;
     }
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 380px) {
     .missionBox {
         background-color: #694956;
         border-radius: 15px;
