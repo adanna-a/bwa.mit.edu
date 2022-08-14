@@ -13,14 +13,19 @@ document.body.style = 'background: black;';
 function App() {
   return (        
     <>   
-          <Navigation />         
+          {/* <Navigation />     */}
+
+          {/* <Route exact path="/">
+            <Redirect push to={"/home.html"} />
+          </Route>       */}
           <Switch>                
-             <Route path='/about' component={About}/>  
+             {/* <Route path='/about' component={About}/>  
              <Route path='/exec' component={Exec}/>               
              <Route path='/gallery' component={Gallery}/> 
              <Route path='/calendar' component={Calendar}/>  
-             <Route path='/constitution' component={Constitution}/>
-             <Route path='/' component={Home}/>           
+             <Route path='/constitution' component={Constitution}/> */}
+             {/* <Route path='/' component={Home}/> */}
+              <Route exact path="/" render={() => {window.location.href="home.html"}} />
           </Switch>
           {/* <Footer /> */}
     </>
