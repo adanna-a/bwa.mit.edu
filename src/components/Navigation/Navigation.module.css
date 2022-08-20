@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    font-family: PT Sans, sans-serif;
+}
+
+.title{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+.title:hover,
+.title:active,
+.title:focus{
+    color:pink;
+}
+.MenuItem{
+    padding-right: 60px;
+    font-size: 30px;
+    color: white;
+}
+.MenuItem:hover,
+.MenuItem:active,
+.MenuItem:focus{
+    color:pink;
+}
